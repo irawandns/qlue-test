@@ -5,7 +5,7 @@ import SideBar from "./components/SideBar";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="md:flex">
       <SideBar/>
       <Routes>
         <Route path="/" element={<Home />} />
