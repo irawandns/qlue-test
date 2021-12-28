@@ -1,8 +1,10 @@
 
 export default function Home() {
   return (
-    <div className="flex">
-      <p className="text-gray-600 body-font">Welcome Home!</p>
-    </div>
+    <>
+      <div className="relative min-h-screen flex">
+        <h1>Home</h1>
+      </div>
+    </>
   );
 }
